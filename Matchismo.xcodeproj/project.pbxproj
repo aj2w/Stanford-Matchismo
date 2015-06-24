@@ -14,6 +14,8 @@
 		5A84FC2D1B3B1F9C0067C35D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A84FC2C1B3B1F9C0067C35D /* Images.xcassets */; };
 		5A84FC301B3B1F9C0067C35D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A84FC2E1B3B1F9C0067C35D /* LaunchScreen.xib */; };
 		5A84FC3C1B3B1F9C0067C35D /* MatchismoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A84FC3B1B3B1F9C0067C35D /* MatchismoTests.m */; };
+		5AD27DC21B3B36E7003435FC /* Model in Resources */ = {isa = PBXBuildFile; fileRef = 5AD27DC11B3B36E7003435FC /* Model */; };
+		5AD27DC41B3B379A003435FC /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD27DC31B3B379A003435FC /* Card.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		5A84FC351B3B1F9C0067C35D /* MatchismoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatchismoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A84FC3A1B3B1F9C0067C35D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A84FC3B1B3B1F9C0067C35D /* MatchismoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatchismoTests.m; sourceTree = "<group>"; };
+		5AD27DC11B3B36E7003435FC /* Model */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Model; sourceTree = "<group>"; };
+		5AD27DC31B3B379A003435FC /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Card.m; path = Model/Card.m; sourceTree = "<group>"; };
+		5AD27DC51B3B37B1003435FC /* Card.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Card.h; path = Model/Card.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +86,9 @@
 		5A84FC1E1B3B1F9C0067C35D /* Matchismo */ = {
 			isa = PBXGroup;
 			children = (
+				5AD27DC11B3B36E7003435FC /* Model */,
+				5AD27DC31B3B379A003435FC /* Card.m */,
+				5AD27DC51B3B37B1003435FC /* Card.h */,
 				5A84FC231B3B1F9C0067C35D /* AppDelegate.h */,
 				5A84FC241B3B1F9C0067C35D /* AppDelegate.m */,
 				5A84FC261B3B1F9C0067C35D /* ViewController.h */,
@@ -201,6 +209,7 @@
 			files = (
 				5A84FC2B1B3B1F9C0067C35D /* Main.storyboard in Resources */,
 				5A84FC301B3B1F9C0067C35D /* LaunchScreen.xib in Resources */,
+				5AD27DC21B3B36E7003435FC /* Model in Resources */,
 				5A84FC2D1B3B1F9C0067C35D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -222,6 +231,7 @@
 				5A84FC281B3B1F9C0067C35D /* ViewController.m in Sources */,
 				5A84FC251B3B1F9C0067C35D /* AppDelegate.m in Sources */,
 				5A84FC221B3B1F9C0067C35D /* main.m in Sources */,
+				5AD27DC41B3B379A003435FC /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +426,7 @@
 				5A84FC411B3B1F9C0067C35D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5A84FC421B3B1F9C0067C35D /* Build configuration list for PBXNativeTarget "MatchismoTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +435,7 @@
 				5A84FC441B3B1F9C0067C35D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
