@@ -6,12 +6,7 @@
 //  Copyright (c) 2015 StanfordCS. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
 #import "Card.h"
-
-@interface Card()
-
-@end
 
 @implementation Card
 
